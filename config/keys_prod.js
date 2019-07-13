@@ -1,0 +1,4 @@
+module.exports = {
+    mongoURI:"mongodb+srv://alex:abc12345@todoapp-prod-eik2v.mongodb.net/test?retryWrites=true&w=majority",
+    jwtSecret:"super***duper"
+}
