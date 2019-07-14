@@ -17,6 +17,10 @@
     "sass": "^1.22.4",
     "uuid": "^3.3.2"
   },
+  "engine": {
+    "node": "8.12.0",
+    "npm": ">=6.0.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
