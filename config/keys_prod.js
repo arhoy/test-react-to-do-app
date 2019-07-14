@@ -1,4 +1,4 @@
 module.exports = {
-    mongoURI:"mongodb+srv://alex:abc12345@todoapp-prod-eik2v.mongodb.net/test?retryWrites=true&w=majority",
+    mongoURI:"mongodb://anna:abc123@ds151086.mlab.com:51086/react-todo-app",
     jwtSecret:"super***duper"
 }
