@@ -19,6 +19,9 @@
   "devDependencies": {
     "nodemon": "^1.19.1"
   },
+  "engines":{
+    "node":"8.x"
+  },
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
