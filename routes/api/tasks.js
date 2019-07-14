@@ -11,8 +11,8 @@ const Task = require('../../models/Task');
 
 // Type          :  GET
 // Route         :  api/task
-// Description   :  get all tasks for that user.
-// Access:       :  Only logged in user can see his tasks.
+// Description   :  get all tasks for that user
+// Access:       :  Only logged in user can see his tasks
 router.get('/', auth, async (req, res) => {
     try {
         const user = await User.findById(req.user.id).select('-password').populate('tasks');
