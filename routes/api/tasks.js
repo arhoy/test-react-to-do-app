@@ -27,7 +27,7 @@ router.get('/', auth, async (req, res) => {
 
 // Type          :  POST
 // Route         :  api/tasks
-// Description   :  user adds ToDo task for themselves.
+// Description   :  user adds ToDo task for themselves
 // Access:       :  User can add task for himself
 router.post(
         '/',
